@@ -1,0 +1,38 @@
+<Solution>
+  <PropertyGroup Name="SampleMusicGame" Version="2.3.1.2" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Assets">
+          <Folder Name="Image">
+            <Image Name="start_button.png" />
+            <Image Name="start_button_on.png" />
+            <Image Name="StartSceneBackground.png" />
+            <Image Name="select_stage_01.png" />
+            <Image Name="select_stage_01_on.png" />
+            <Image Name="StagSelect01Background.jpg" />
+            <Image Name="Player.png" />
+            <Image Name="Enemy.png" />
+            <Image Name="stage01_background.png" />
+            <Image Name="left.png" />
+            <Image Name="right.png" />
+            <Image Name="left_on.png" />
+            <Image Name="right_on.png" />
+          </Folder>
+          <Folder Name="Sound">
+            <Audio Name="01CCY.wav" />
+            <Audio Name="01kick.wav" />
+            <Audio Name="music01.mp3" />
+            <Audio Name="music02.mp3" />
+          </Folder>
+        </Folder>
+        <Folder Name="Scenes">
+          <Project Name="MainScene.csd" Type="Scene" />
+          <Project Name="StageSelectScene.csd" Type="Scene" />
+          <Project Name="Stage01Scene.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="Components" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
