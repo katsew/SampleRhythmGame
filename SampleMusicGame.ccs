@@ -26,12 +26,12 @@
             <Audio Name="music02.mp3" />
           </Folder>
         </Folder>
-        <Folder Name="Scenes">
-          <Project Name="MainScene.csd" Type="Scene" />
-          <Project Name="StageSelectScene.csd" Type="Scene" />
-          <Project Name="Stage01Scene.csd" Type="Scene" />
-        </Folder>
-        <Folder Name="Components" />
+        <Project Name="MainLayer.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="Stage01Layer.csd" Type="Layer" />
+        <Project Name="Stage01Scene.csd" Type="Scene" />
+        <Project Name="StageSelectLayer.csd" Type="Layer" />
+        <Project Name="StageSelectScene.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>

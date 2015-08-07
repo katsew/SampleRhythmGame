@@ -1,0 +1,212 @@
+{
+  "ID": "883dcc28-2dd0-46f4-85fa-698ef83a1866",
+  "Version": "2.3.1.2",
+  "Name": "StageSelectLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 51,
+        "Children": [
+          {
+            "ScrollDirectionType": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 250,
+              "G": 206
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 568.1136
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5001
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "TopMargin": -0.1135,
+            "BottomMargin": 0.1136,
+            "CallBackType": "Touch",
+            "Tag": 52,
+            "ActionTag": -1318149826,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "SelectStageCarousel",
+            "ctype": "PageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Assets/Image/StagSelect01Background.jpg",
+              "Plist": ""
+            },
+            "Scale9Width": 950,
+            "Scale9Height": 950,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.9761,
+              "Y": 568.1584
+            },
+            "Scale": {
+              "ScaleX": 0.3874,
+              "ScaleY": 0.3874
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5001
+            },
+            "PreSize": {
+              "X": 1.4844,
+              "Y": 0.8363
+            },
+            "LeftMargin": -155.0239,
+            "RightMargin": -154.9761,
+            "TopMargin": 92.8416,
+            "BottomMargin": 93.1584,
+            "Tag": 53,
+            "ActionTag": -1736658832,
+            "Size": {
+              "X": 950.0,
+              "Y": 950.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Assets/Image/select_stage_01_on.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Assets/Image/select_stage_01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 166,
+            "Scale9Height": 40,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 315.0,
+              "Y": 432.4658
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4922,
+              "Y": 0.3807
+            },
+            "PreSize": {
+              "X": 0.3063,
+              "Y": 0.0546
+            },
+            "LeftMargin": 217.0,
+            "RightMargin": 227.0,
+            "TopMargin": 672.5342,
+            "BottomMargin": 401.4658,
+            "Tag": 54,
+            "ActionTag": -1675570130,
+            "Size": {
+              "X": 196.0,
+              "Y": 62.0
+            },
+            "Name": "SelectStage01Button",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Assets/Image/select_stage_01.png",
+        "Assets/Image/select_stage_01_on.png",
+        "Assets/Image/StagSelect01Background.jpg",
+        "Default/Button_Disable.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

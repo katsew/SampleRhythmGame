@@ -1,29 +1,36 @@
 
-var HelloWorldLayer = cc.Layer.extend({
+var MainLayer = cc.Layer.extend({
     sprite:null,
     ctor:function () {
-        //////////////////////////////
-        // 1. super init first
+
         this._super();
 
-        /////////////////////////////
-        // 2. add a menu item with "X" image, which is clicked to quit the program
-        //    you may modify it.
-        // ask the window size
-        var size = cc.winSize;
-
-        var mainscene = ccs.load(res.MainScene_json);
-        this.addChild(mainscene.node);
+        var mainLayer = ccs.load(res.MainLayer_json);
+        var startButton = mainLayer.node.getChildByName("StartButton");
+        startButton.addTouchEventListener(this.onTouchStartButton, this);
+        this.addChild(mainLayer.node);
 
         return true;
+    },
+    onTouchStartButton: function (e) {
+        cc.director.runScene(new StageSelectScene());
     }
 });
 
-var HelloWorldScene = cc.Scene.extend({
+var MainScene = cc.Scene.extend({
     onEnter:function () {
         this._super();
-        var layer = new HelloWorldLayer();
+        cc.log('--- on enter main scene ---');
+        cc.audioEngine.stopMusic();
+        cc.audioEngine.playMusic(res.MainBGM_mp3);
+
+        var layer = new MainLayer();
         this.addChild(layer);
+
+    },
+    onExit: function () {
+        cc.log('--- on exit main scene ---');
+        cc.audioEngine.stopMusic();
     }
 });
 
